@@ -1,0 +1,28 @@
+.modals {
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.modal-wrapper{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    width: 200px;
+    background: #fff;
+    border-radius: 5px;
+    min-width: 500px;
+    position: relative;
+    display: block;
+}
+.modal-dialog{
+    margin: .5rem !important;
+}

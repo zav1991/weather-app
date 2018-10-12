@@ -1,0 +1,212 @@
+html{
+    overflow-x: hidden;
+}
+.delete-btn-img{
+    margin-left: -0.05rem;
+    margin-top: 0.35rem;
+    height: 3rem;
+    width: 3rem;
+    background-repeat: no-repeat;
+    background-image: url(../img/glyphicons-remove-circle.png);
+}
+
+.temperature{
+    font-size: 2rem;
+}
+
+.current-city-name{
+    font-size: 2rem;
+}
+
+.default-btn{
+    font-size: 10pt;
+}
+
+.list-group-item:first-child{
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    outline: none;
+    white-space: nowrap;
+}
+.list-group-item{
+    margin-bottom: 0.3rem;
+}
+
+.delete-btn{
+    max-width: 3.13rem;
+    max-height: 3.13rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    outline: none;
+}
+
+.city-input{
+    max-width: 15rem;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 98%;
+    margin-top: 6rem;
+}
+
+.params{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wind, .pressure, .humidity{
+    font-size: 12pt;
+}
+.unit{
+    font-size: 8pt;
+}
+
+.find-city-row{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 1335px){
+    .list-group-item:first-child {
+        max-width: 13rem;
+    }
+}
+@media(max-width: 1170px){
+    .list-group-item:first-child {
+        max-width: 11rem;
+    }
+    .current-city-name{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 1040px){
+    .list-group-item:first-child {
+        max-width: 7rem;
+        font-size: 8pt;
+    }
+    .delete-btn{
+        max-width: 2.6rem;
+        max-height: 2.6rem;
+    }
+    .delete-btn-img{
+        margin-left: -0.4rem;
+        margin-top: 0.1rem;
+    }
+    .default-btn-text {
+        font-size: 7pt;
+    }
+}
+
+@media(max-width: 890px){
+    .current-city-name{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 767px) {
+    .list-group-item:first-child {
+        max-width: 15rem;
+        font-size: 12pt;
+    }
+    .delete-btn{
+        max-width: 3.13rem;
+        max-height: 3.13rem;
+    }
+    .delete-btn-img{
+        margin-left: -0.05rem;
+        margin-top: 0.35rem;
+    }
+    .col-md-4{
+        margin-left: 17%;
+    }
+    .wind, .pressure, .humidity{
+        font-size: 8pt;
+    }
+    .default-btn-text {
+        font-size: 5pt;
+    }
+}
+@media(max-width: 629px) {
+    .wind, .pressure, .humidity, .unit{
+        font-size: 6pt;
+    }
+    .current-city-name{
+        font-size: 9pt;
+    }
+    .temperature{
+        font-size: 16pt;
+    }
+    .find-city-row{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5pt;
+        margin-bottom: 10pt;
+    }
+    .city-input{
+        margin-bottom: 5pt;
+        margin-top: 4pt;
+    }
+    .weather{
+        margin-left: 10%;
+    }
+}
+@media(max-width: 550px) {
+    .col-md-4{
+        margin-left: 10%;
+    }
+}
+@media(max-width: 461px) {
+    .list-group-item:first-child {
+        max-width: 10rem;
+    }
+    .col-md-4{
+        margin-left: 14%;
+    }
+    .weather{
+        margin-left: 30%;
+    }
+    .wind, .pressure, .humidity, .unit{
+        font-size: 5pt;
+    }
+    .city-input{
+        max-width: 11rem;
+    }
+    .default-btn-text {
+        font-size: 4pt;
+    }
+}
+@media(max-width: 358px) {
+    .list-group-item:first-child {
+        max-width: 9rem;
+        font-size: 10pt;
+    }
+    .delete-btn{
+        max-width: 2.8rem;
+        max-height: 2.8rem;
+    }
+    .delete-btn-img{
+        margin-left: -0.25rem;
+        margin-top: 0.2rem;
+    }
+    .col-md-4{
+        margin-left: 13%;
+    }
+    .wind, .pressure, .humidity{
+        font-size: 6pt;
+    }
+}
+@media(max-width: 323px) {
+    .list-group-item:first-child {
+        max-width: 8rem;
+        font-size: 10pt;
+    }
+}
